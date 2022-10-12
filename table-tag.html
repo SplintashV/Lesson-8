@@ -7,11 +7,18 @@
     <title> Lesson-8 </title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/home.css">
     
 </head>
-
-<body class="home-page"> 
+<style>
+    :root{
+        --background: #ffffff;
+        --table-primary-color:rgb(46, 50, 54); ;
+        --table-secondary-color: rgb(125, 189, 219);;
+       --table-cell-width: 450px;
+       --table-font-color: white;
+    }
+</style>
+<body class="table-tag-page"> 
     <header>
         <nav>
             <a href="index.html"class="logo">
@@ -43,11 +50,31 @@
         </nav>
     </header>
     <main>
-        <div class="person-info">
-            <h1 class="person-info__title">Hi, I am James Mathew</h1>
-            <h2 class="person-info__subtitle">I am an Interaction Designer</h2>
-            <h3 class="person-info__description">A minimalist who loves to listed Indian Music, writing Love Poems and playing Sudoku.</h3>
-            <a class="person-info__btn" href="#">View My Work</a>
+        <h1 class="page-title">Table tags</h1>
+        <div class="container">
+            <div class="table-tags">
+                <ol>
+                    <li class="row">
+                        <div class="tags-name">
+                            <xmp><a href="я ссылка"></a></xmp>
+                        </div>
+                        <div class="tags-description">Определяет гиперссылку</div>
+                    </li>
+                    <li class="row">
+                        <div class="tags-name">
+                            <xmp><!--...--></xmp>
+                        </div>
+                        <div class="tags-description">Определяет комментарий</div>
+                    </li>
+                    <li class="row">
+                        <div class="tags-name">
+                            <xmp><!DOCTYPE></xmp>
+                        </div>
+                        <div class="tags-description">Определяет тип документа</div>
+                    </li>
+                </ol>
+            </div>
+
         </div>
     </main>
     <footer>

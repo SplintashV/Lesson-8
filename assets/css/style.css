@@ -235,3 +235,9 @@ b, strong {
     align-self:end;
 
 }
+
+@media (max-width: 767px){
+    .page-title {
+        font-size: 28px;
+    }
+}
